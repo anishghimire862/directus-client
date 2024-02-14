@@ -1,0 +1,19 @@
+{
+  "name": "directus_boilerplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "directus start",
+    "build": "npx directus bootstrap",
+    "create-snapshot": "npx directus schema snapshot --yes ./snapshot.yaml",
+    "apply-snapshot": "npx directus schema apply --yes ./snapshot.yaml"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "directus": "^10.9.0"
+  }
+}
+
