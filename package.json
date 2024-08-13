@@ -14,7 +14,7 @@
   "description": "",
   "type": "module",
   "dependencies": {
-    "directus": "^10.9.0"
+    "directus": "^11.0.0"
   }
 }
 
